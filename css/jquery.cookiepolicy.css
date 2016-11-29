@@ -1,0 +1,39 @@
+.cookiepolicy {
+    background: #d1d1d1;
+    bottom: 0;
+    font: 16px Arial, Helvetica, sans-serif;
+    left: 0;
+    padding: 15px 50px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+}
+
+.cookiepolicy .button {
+    background: #337ab7;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.cookiepolicy .button:hover {
+    background: #2e6da4;
+    text-decoration: none;
+}
+
+@media(max-width:991px) {
+    .cookiepolicy {
+        font: 14px Arial, Helvetica, sans-serif;
+    }
+}
+
+@media(max-width:767px) {
+    .cookiepolicy {
+        font: 12px Arial, Helvetica, sans-serif;
+    }
+}
